@@ -8,7 +8,7 @@ import "github.com/aws/aws-sdk-go/aws/session"
 //
 // Example:
 //
-//     import "github.com/hekonsek/awsom_session"
+//     import "github.com/hekonsek/awsom-session"
 //     ...
 //     err, sess := awsom_session.NewSession()
 func NewSession() (*session.Session, error) {

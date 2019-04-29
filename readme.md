@@ -10,7 +10,7 @@ Makes working with AWS SDK session easier.
 
  Example:
 
-     import "github.com/hekonsek/awsom_session"
+     import "github.com/hekonsek/awsom-session"
      ...
      err, sess := awsom_session.NewSession()
      
