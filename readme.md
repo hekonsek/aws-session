@@ -13,3 +13,7 @@
      import "github.com/hekonsek/awsom_session"
      ...
      err, sess := awsom_session.NewSession()
+     
+## License
+
+This project is distributed under Apache 2.0 license.
