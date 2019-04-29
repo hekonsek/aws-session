@@ -1,6 +1,6 @@
 # awsom session
 
-**awsom session** makes working with AWS SDK session easier.
+Makes working with AWS SDK session easier.
 
 ## Usage
 
