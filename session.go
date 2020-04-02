@@ -8,9 +8,9 @@ import "github.com/aws/aws-sdk-go/aws/session"
 //
 // Example:
 //
-//     import "github.com/hekonsek/awsom-session"
+//     import "github.com/hekonsek/aws-session"
 //     ...
-//     err, sess := awsom_session.NewSession()
+//     err, sess := aws_session.NewSession()
 func NewSession() (*session.Session, error) {
 	sess, err := session.NewSessionWithOptions(session.Options{
 		SharedConfigState: session.SharedConfigEnable,
